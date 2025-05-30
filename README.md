@@ -14,14 +14,6 @@ A simple yet powerful Calculator built with HTML, CSS, and JavaScript. Designed 
 
 ---
 
-## 📸 Preview
-
-![Calculator Screenshot](./assets/preview.png)
-
-> *Add your own screenshot image in the assets folder*
-
----
-
 ## 🛠️ Tech Stack
 
 | Tech      | Description                  |
