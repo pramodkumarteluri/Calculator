@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <u><h1>Calculator</h1></u>
+    <div> 
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" name="text" id="inputbox"></td>
+                <td><Button onclick="clearInput()">C</Button></td>
+            </tr>
+
+            <tr>
+                <td><button value="7" onclick="clickButtonfunc(7)">7</button></td>
+                <td><button value="8" onclick="clickButtonfunc(8)">8</button></td>
+                <td><button value="9" onclick="clickButtonfunc(9)">9</button></td>
+                <td><button value="/" onclick="clickButtonfunc(this.value)">&divide;</button></td>
+            </tr>
+
+            <tr>
+                <td><button value="4" onclick="clickButtonfunc(4)">4</button></td>
+                <td><button value="5" onclick="clickButtonfunc(5)">5</button></td>
+                <td><button value="6" onclick="clickButtonfunc(6)">6</button></td>
+                <td><button value="*" onclick="clickButtonfunc(this.value)">&times;</button></td> 
+            </tr>
+
+            <tr>
+                <td><button value="1" onclick="clickButtonfunc(1)">1</button></td>
+                <td><button value="2" onclick="clickButtonfunc(2)">2</button></td>
+                <td><button value="3" onclick="clickButtonfunc(3)">3</button></td>
+                <td><button value="-" onclick="clickButtonfunc(this.value)">&minus;</button></td>
+            </tr>
+
+            <tr>
+                <td><button value="." onclick="clickButtonfunc(this.value)">.</button></td>
+                <td><button value="0" onclick="clickButtonfunc(0)">0</button></td>
+                <td><button value="=" onclick="calc()">&equals;</button></td>
+                <td><button value="+" onclick="clickButtonfunc(this.value)">&plus;</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
