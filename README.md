@@ -22,7 +22,3 @@ A simple yet powerful Calculator built with HTML, CSS, and JavaScript. Designed 
 | CSS3      | Styling and layout           |
 | JavaScript | Functional logic and interaction |
 
----
-
-## 📂 Project Structure
-
